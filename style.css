@@ -1,0 +1,123 @@
+body
+{
+ 	font-family: Helvetica, sans-serif;
+ 	font-size: 17px;
+ 	color:#262626;
+	background-image: url(images/concrete_seamless.png);
+}
+
+h1
+{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-family: Impact;
+	font-size: 45px;
+	color: #48E2BC;
+	text-align: center;
+
+}
+
+h2
+{
+	font-family: Impact;
+	font-size: 25px;
+	color: #F25C5C;
+	text-align: center;
+}
+
+#teaser {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-family: Impact;
+	font-size: 45px;
+	color: #48E2BC;
+	text-align: center;
+}
+
+.portfolio-content {
+	text-align: center;
+	margin: 50px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+    margin-top: 10px;
+    width: 600px;
+    height: 500px;
+    border: 1px solid rgba(242, 202, 58, 0.5);
+}
+
+.portfolio-content a {
+	color : #262626;
+}
+
+img:hover {
+	opacity: 0.7;
+}
+
+.portfolio-content a:hover {
+	color : #262626;
+}
+
+h3
+{
+	font-family: Impact;
+	font-size: 20px;
+	color: #F25C5C;
+	text-align: center;
+}
+
+p
+{
+	margin-right: 70px;
+	margin-left: 70px;
+}
+
+nav
+{
+	display: inline-block;
+	width: 900px;
+	text-align: right;
+	position: relative;
+	top: 0px;
+
+}
+
+nav ul
+{
+	list-style-type: none;
+}
+
+nav li
+{
+	display: inline-block;
+	margin-right: 15px;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav li a {
+	padding: 5px 15px;
+	font-weight : bold;
+	color: #262626;
+	-webkit-border-radius : 14px;
+	-moz-border-radius : 14px;
+	border-radius : 14px;
+	background-color: rgb(242, 202, 58);
+	transition-property: background-color;
+	transition-duration: 1s;
+}
+
+nav a:hover {
+	color : #262626;
+	background : rgb(255, 230, 7);
+}
+
+#footer {
+	margin-bottom: 50px;
+}
